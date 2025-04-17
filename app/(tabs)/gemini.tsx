@@ -1,7 +1,7 @@
 import React from "react";
 import { GenerateContentRequest, GoogleGenerativeAI, Part } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI('AIzaSyB79XSfhjb4sxLr0atszjqTtkl6HHoktj8');
+const genAI = new GoogleGenerativeAI('');
 const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
 async function generateText(prompt: string) {
